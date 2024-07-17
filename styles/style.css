@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.font-color {
+  color: #3a3a3a;
+}
+
+/* navbar style */
+header {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-button {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-icon i {
+  margin-right: 30px;
+}
+/* main section */
+
+.main-section {
+  max-width: 1050px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.main-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-text-container {
+  margin-top: 60px;
+}
+.main-image-container {
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-image: url("../images/Circle\ design.svg");
+}
+.main-image-container img {
+  width: 90%;
+}
+.btn-primary {
+  background-color: #e02c6d;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+}
+
+/* shop style */
+.shop-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 950px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.shop-container img {
+  width: 70px;
+  height: auto;
+}
+
+/* popular collection style */
+
+.popular-container {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 1200px;
+}
+.popular-text {
+  text-align: center;
+}
+.star-image i {
+  color: #fb8200;
+}
+.parent-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.popular-card-container img {
+  width: 100%;
+}
+.popular-card-container {
+  padding: 12px;
+  box-shadow: 0 4px 8px rgba(168, 127, 127, 0.511);
+}
+.popular-card-container p {
+  color: #3a3a3a;
+}
