@@ -81,7 +81,7 @@ header {
   max-width: 900px;
   margin: 0 auto;
   margin-top: 50px;
-  height: 1200px;
+  height: 1600px;
 }
 .popular-text {
   text-align: center;
@@ -103,4 +103,39 @@ header {
 }
 .popular-card-container p {
   color: #3a3a3a;
+}
+/* featured product style */
+
+.product-container2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 270px;
+  border: 2px solid red;
+  display: flex;
+}
+.product-text {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.join-btn {
+  padding: 8px 20px;
+  color: white;
+  background-color: #e02c6d;
+  border: none;
+}
+/* footer section style */
+.footer-container {
+  max-width: 1440px;
+  height: 250px;
+  background-color: #0a0826;
+  margin-top: 30px;
+  color: white;
+}
+.footer-text {
+  text-align: center;
+  padding-top: 25px;
+}
+.footer-container img {
+  width: 2%;
 }
